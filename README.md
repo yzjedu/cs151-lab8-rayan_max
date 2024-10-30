@@ -64,14 +64,32 @@ Sum of 12 *
 
 ## `Design`
 You should use iterative development to build your solution:
-- **Start Small**: Begin by writing a function that rolls one die and test it.
-  - Extend it to roll two dice and calculate the sum.
+- **Start Small**: *Think about what task you should solve*. And, for each task do the simplest part first
+  - For example: 
+    - Begin by writing a function that rolls one die and test it.
+    - Extend it to roll two dice and calculate the sum.
 - **Incremental Development**: Gradually add more functionality, such as counting the sums and generating the chart.
   - Test each part before moving on to the next.
 - **Printing the Asterisk Chart**: For each possible sum, print the corresponding number of asterisks.
   - For sums below 10, use `f'{i + 2:02}'` to add a leading zero.
   - This format ensures the sum is always printed as a two-digit number.
-
+### Function design: 
+  Use the guidlines for creating a function
+  -  **In algorithm**
+  ```
+  
+  # Purpose:  [what problem does the function solve?]
+  # Name: [The proposed name of the function]
+  # Parameters: [list with purpose in the same order they appear in the function header]
+  # Return: [return value, it's type, and what it represents]
+  # Algorithm:
+  ```
+  - **In Code**
+  ```
+  # Purpose:  [what problem does the function solve?]
+  # Parameters: [list with purpose in the same order they appear in the function header]
+  # Return: [return value, it's type, and what it represents]
+  ```
 
 ## `Steps:`
 1. Make sure you understand the problem
