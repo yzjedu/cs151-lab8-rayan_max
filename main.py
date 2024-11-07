@@ -32,3 +32,4 @@ for i in range(2, 13):
         print("Sum of 0" + str(i) + " " + stars)  # Adding leading zero for single-digit sums
     else:
         print("Sum of " + str(i) + " " + stars)
+#done
