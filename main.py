@@ -1,3 +1,11 @@
+# Programmers: Rayan and Max Rice
+# Course:  CS151, Professor Zee
+# Due Date: 11/7/2024
+# Lab Assignment: 8
+# Problem Statement: rolls two dice and outputs a chart showing how many times each combination shows
+# Data In: times rolled
+# Data Out: how many times each number is rolled
+# Credits: this code is basen on the guidelines given in the read me file
 
 import random
 # Initialzing count and list_rolls
@@ -24,12 +32,11 @@ print(list_rolls)
 for i in range(2, 13):
     # Finding out how many times i was rolled
     count_of_sum = list_rolls[i - 2]
-
     # Creating stars as a string because of the rubric
     stars = '*' * count_of_sum
 
     # Finnaly printing the results in the most proper way
     if i < 10:
-        print("Sum of 0" + str(i) + " " + stars)  # Adding leading zero for single-digit sums
+        print("Sum of 0" + str(i) + " "  + stars)  # Adding leading zero for single-digit sums
     else:
         print("Sum of " + str(i) + " " + stars)
