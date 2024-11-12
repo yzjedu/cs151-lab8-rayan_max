@@ -20,7 +20,7 @@ times_rolled = int(times_rolled)  #Coverting the amount times rolled to a int
 # Rolling the dice a certain amount of times
 while count < times_rolled:
     # The simulation of rolling the dice and adding the results
-    ran_int = random.randint(2,12)
+    ran_int = random.randint(1,6) + random.randint(1,6)
     # Increment the count for the rolled sum
     list_rolls[ran_int - 2] += 1
     # Increment the loop counter
